@@ -10,7 +10,7 @@ namespace FlowerAsistent
     {
 
 
-        public Rose(string specie = "Damascena", string color = "red") : base(specie)
+        public Rose(string specie = "Rose Damascena", string color = "red") : base(specie,color)
         {
 
         }
@@ -43,6 +43,8 @@ namespace FlowerAsistent
             Console.WriteLine($"Good luck with taking care of your {Color} {Specie} rose!");
 
         }
+
+        
 
 
     }

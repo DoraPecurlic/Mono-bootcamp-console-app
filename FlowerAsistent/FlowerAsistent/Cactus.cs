@@ -8,7 +8,7 @@ namespace FlowerAsistent
 {
     internal class Cactus : Plant, ILightRequirement, IPlantCareInstructions
     {
-        public Cactus(string specie= "Opuntia ficus-indica") : base(specie)
+        public Cactus(string specie= "Opuntia ficus-indica", string color="green") : base(specie, color)
         {
         }
 

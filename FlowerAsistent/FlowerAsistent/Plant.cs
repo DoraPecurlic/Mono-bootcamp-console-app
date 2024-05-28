@@ -12,9 +12,10 @@ namespace FlowerAsistent
 
         public string Color { get; set; }
 
-        public Plant(string specie)
+        public Plant(string specie, string color)
         {
             this.Specie = specie;
+            this.Color = color;
      
         }
 

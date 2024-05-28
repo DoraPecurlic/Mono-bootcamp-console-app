@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cactus.cs" />
+    <Compile Include="Cart.cs" />
     <Compile Include="ILightRequirement.cs" />
     <Compile Include="IPlantCareInstructions.cs" />
     <Compile Include="Plant.cs" />

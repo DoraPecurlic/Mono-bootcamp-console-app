@@ -8,7 +8,7 @@ namespace FlowerAsistent
 {
     internal class Tulips : Plant, ILightRequirement, IPlantCareInstructions
     {
-        public Tulips(string specie= "Gesneriana", string color ="yellow") : base(specie)
+        public Tulips(string specie= "Tulip Gesneriana", string color ="yellow") : base(specie, color)
         {
         }
 
